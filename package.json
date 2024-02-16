@@ -1,0 +1,17 @@
+{
+  "name": "repaso",
+  "version": "1.0.0",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build ./src/index.html --dist-dir build",
+    "deploy": "gh-pages -d dist"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.11.0"
+  },
+  "dependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}
